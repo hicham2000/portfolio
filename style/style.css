@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+    
+
+}
+
+
+
+.buttonDisabled
+ {
+ Cursor:text !important; Text-Decoration: None !important; 
+ } 
+
+ .noHover{
+    pointer-events: none;
+}
+
+.hi{
+    color: #7c30d8;
+}
+
+#home-article h1{
+    color: #7c30d8;
+    font-family: 'Poppins ', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    
+}
+
+
+
+
+
+nav a{
+    font-family: 'Poppins', sans-serif;
+    color: #7c30d8;
+}
+.langue{
+    
+    border: 2px #7c30d8 solid;
+}
+
+.javabtn{
+    margin-top: 2rem;
+}
+
+.javabtn a{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #7c30d8;
+    margin-top: 20px;
+
+}
+.javabtn a:first-child{
+    background-color: #fe9c15;
+    
+
+}
+aside img{
+    
+    width: 10rem;
+    height: 10rem;
+    display: block;
+    margin: auto;
+    
+    
+}
+
+
+
+aside{
+    border-left: 5px #e8e8f1 solid;
+}
+
+
+
+
+
+#home-article{
+    
+    position: relative;
+    padding-top: 1.4rem;
+    
+}
+
+#home-article p{
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    padding-top: 0.7rem;
+
+}
+
+#home-article h3{
+    font-family: 'Poppins', sans-serif;
+    color: #fe9c15;
+    padding-top: 1.3rem;
+}
+
+.hic{
+   background-color: #fe9c15;
+}
+
+#home-article::before{
+content: "";
+width: 600px;
+height: 600px;
+background-color: #ffedd6;
+border-radius: 50%;
+position: absolute;
+left: -300px;
+top: -260px;
+z-index: -1;
+}
+
+
+#home-article h1::after{
+content: "";
+width: 20px;
+height: 20px;
+background-color: transparent;
+border: 6px solid #7c30d8;
+position: absolute;
+right: 10%;
+top: -10%;
+z-index: 0;
+animation-name: rot;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+@keyframes rot {
+0%{
+transform: rotate(0deg);
+}
+50%{
+transform: rotate(180deg);
+}
+100%{
+transform: rotate(0deg);
+}
+}
+
+#home-article::after{
+content: "";
+width: 50px;
+height: 50px;
+background-color: transparent;
+border: 4px solid #fe9c15;
+border-radius: 50%;
+position: absolute;
+right: 2%;
+top: 15%;
+z-index: -1;
+animation-name: ltr;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ltr {
+0%{
+right:2% ;
+}
+50%{
+right: 5%;
+}
+
+100%{
+right: 2%;
+}
+
+}
+
+.fiverr{
+padding-top:5px;
+padding-bottom: 5px;
+font-size: 1.3rem;
+text-align: center;
+background-color: #7c30d8;
+border-radius: 20px;
+padding-left: 20px;
+padding-right: 20px;
+border: none;
+}
+.fiverr a{
+font-family: 'Poppins', sans-serif;
+color: white;
+text-decoration: none;
+}
+
+.btn-contact{
+padding-top:10px;
+padding-bottom: 10px;
+font-size: 1.01rem;
+text-align: center;
+
+background-color: transparent;
+border: none;
+padding-left: 30px;
+
+}
+.btn-contact a{
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color: #7c30d8;
+}
+
+
+
+.online{
+color: #3ea917;
+border: 2px solid white;
+position: absolute;
+top: 80%;
+left: 63%;
+border-radius: 50%;
+}
+
+.section{
+margin-top: -1rem;
+}
+
+aside h4{
+    font-family: 'Poppins ', sans-serif;
+    font-weight: 600;
+    
+}
+
+aside .profil p{
+    color: #7c30d8;
+    font-family: 'Poppins ', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.profil-description img{
+    height: 3rem;
+    width: 7rem;
+}
+
+.second-color{
+    color: #fe9c15;
+}
+
+#profil-contact h5{
+    font-family: 'Poppins ', sans-serif;
+    color: #fe9c15;
+    top: 10px;
+
+}
+
+#skills-article img{
+    width: 90px;
+    height: 90px;
+
+}
+
+#skills-article p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+#skills-article{
+    position: relative;
+}
+
+#skills-article::before{
+content: "";
+width: 22rem;
+height: 22rem;
+background-color: #ffedd6;
+border-radius: 50%;
+position: absolute;
+z-index: -1;
+left: 10%;
+top: 15%;
+}
+
+#offers-article div{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+height: 70vh;
+color: #7c30d8;
+font-family: 'Poppins', sans-serif;
+
+
+}
+#portfolio-article h1 , #offers-article h1{
+font-weight: bold;
+font-weight: 1200;
+
+}
+#offers-article{
+background-image: url("../images/404 error with people holding the numbers-amico.svg");
+background-repeat: no-repeat;
+background-position: top;
+background-size: 25rem;
+
+}
+#offers-article div{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+height: 70vh;
+color: #fe9c15;
+font-family: 'Poppins', sans-serif;
+
+
+}
+#offers-article h1{
+font-weight: bold;
+font-weight: 1200;
+
+}
+#offers-article{
+background-image: url("../images/404 error with people holding the numbers-amico (1).svg");
+background-repeat: no-repeat;
+background-position: top;
+background-size: 25rem;
+
+}
+
+.contact{
+    height: 40px;
+}
+
+
+.contacttext{
+    height: 130px;
+}
+
+#contact-article{
+    padding-top: 10px;
+    background-image: url("../images/Feedback-amico.svg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    
+    
+   
+}
+#contact-article::before{
+content: "";
+width: 700px;
+height: 700px;
+background-color: #ffedd6;
+border-radius: 50%;
+position: absolute;
+left: -300px;
+top: -260px;
+z-index: -1;
+}
+
+
+
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+border-color: #7c30d8;
+} 
+
+@media screen and (max-width: 768px) {
+#home-article{
+background-image: none !important;
+}
+}
+
+
+.contact-succes{
+border: 2px green solid;
+}
+
+.contact-erorr{
+border:  2px red solid;
+}
+
+
+textarea:focus, input:focus{
+outline: none;
+}
+
+input{
+border-radius: 7px;
+border: 2px #7c30d8 solid;
+font-family: 'Poppins', sans-serif;
+}
+
+textarea{
+border-radius: 7px;
+border: 2px #7c30d8 solid;
+font-family: 'Poppins', sans-serif;
+}
+
+#submitbtn{
+color: white;
+background-color: #7c30d8;
+padding: 8px;
+border-radius: 40px;
+padding-left: 15px;
+padding-right: 15px;
+font-family: 'Poppins', sans-serif;
+border-radius: 7px;
+border: 2px #7c30d8 solid;
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+

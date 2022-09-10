@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jeune informaticien dont l’objective est la résolution des problèmes complexes . " >
+    <meta name="keywords" content="hicham , taib , hichamtaib , hicham taib , ensa , ensa kenitra , kenitra ">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="style/style.css">
+<link rel="icon" href="images/letter-h (2) - Copie.icon">
+<style>
+    #messagesent{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        padding: 20px;
+        background-color: #7c30d8;
+        width: 100%;
+        margin: auto;
+    }
+</style>
+
+    <title>Hicham Taib</title>
+
+
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg   ">
+        <div class="container-fluid">
+            <a href="#" id="logo"><img class="ms-3 logo" src="images/letter-h (2).png"  alt=""></a>
+          
+          <button id="btn-col" class="navbar-toggler custom-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end  " id="navbarNavAltMarkup">
+            <div class="navbar-nav nav-liste ">
+              <a id="home" class="nav-link mt-4 fs-4 pe-5 hi  second-color active " aria-current="page"  href="#">HOME</a>
+              <a id="skills" class="nav-link mt-4 fs-4 pe-5 hi " href="#">SKILLS</a>
+              <a id="portfolio" class="nav-link mt-4 fs-4 pe-5 hi" href="#">PORTFOLIO</a>
+              <a id="offers" class="nav-link mt-4 fs-4 pe-5 hi" href="#">OFFERS</a>
+              <a id="contact" class="nav-link mt-4 fs-4 pe-5 hi " href="#">CONTACT</a>
+              <a class="nav-link mt-4 fs-4 pe-4 ps-4 rounded-pill me-5 langue hi " href="#" style="pointer-events: none"><i class="fa-solid fa-globe "></i> Francais</a>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <div class=" row mt-3 mw-100 section">
+        <div class=" d-none d-lg-block col-1 javabtn mt-5">
+            <ul class="navbar-nav align-items-center position-fixed mt-5 ms-5 ">
+                <a href="#" class="hic" direction="home"><li class="nav-item " > </li> </a> 
+                <a href="#" direction="skills"><li class="nav-item "  > </li> </a> 
+                <a href="#" direction="portfolio"><li class="nav-item " > </li> </a> 
+                <a href="#" direction="offers"><li class="nav-item " > </li> </a> 
+                <a href="#" direction="contact"><li class="nav-item " > </li> </a> 
+                
+                
+                
+                
+            </ul>
+        </div>
+        <article id="home-article" direction="home" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0 mw-100">
+            <h1 >I BUILD BEAUTIFUL MODERN WEBSITES</h1>
+            <h3 class="fs-4 ">I'm Hicham Taib | Software Engineer Student</h3>
+            <p class="fs-5 w-100">As a Software Engineer developer, I’ve found that many people enjoy my unique design style, high quality of work, and reasonable rates.</p>
+            <div class="d-flex  flex-column flex-sm-row" >
+                <button class="fiverr"><a href="Resume/Hicham taib.pdf" target="_blank" >Download My Resume</a></button>
+            <button class="btn-contact"><a href="#" id="contactMe" > 
+                <i class="fas fa-envelope-square "></i>
+                CONTACT ME</a></button>
+            </div>
+
+        </article>
+        <article id="skills-article"  class="col-lg-7 mt-5 col-md-8 col-12 mw-100 ps-4 ps-lg-0 ">
+            <p class="m-auto text-center">To building websites and web applications I use modern technologies and techniques with best practices to make who visite my websites satisfied 100% with the result...</p>
+            <div class="d-flex  align-items-center justify-content-center  flex-wrap skills">
+                <div class="p-3"  >
+                    <img src="images/html.png"   alt="">
+                </div>
+                <div class="p-3">
+                    <img src="images/css.png" alt="">
+                </div>
+                <div class="p-3">
+                    <img src="images/js.png" alt="">
+                </div>
+                <div class="p-3">
+                    <img src="images/jquery.png" alt="">
+                </div>
+                <div class="p-3">
+                    <img src="images/ajax.png" alt="">
+                </div>
+                <div class="p-3">
+                    <img src="images/react.png" alt="">
+                </div>
+                <div class="p-3">
+                    <img src="images/php.png" alt="">
+                </div>
+                
+                <div class="p-3">
+                    <img src="images/laravel1.png" alt="">
+                </div>
+                <div class="p-3">
+                    <img src="images/mysql.png" alt="">
+                </div>
+                <div class="p-3">
+                    <img src="images/wordpress.png" alt="">
+                </div>
+                <div class="p-3">
+                    <img src="images/git.png" alt="">
+                </div>
+                <div class="p-3">
+                    <img src="images/github.png" alt="">
+                </div>
+            </div>
+
+        </article>
+        <article id="portfolio-article" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0">
+            <div class="d-flex justify-content-center justify-content-lg-start">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/PizzaSysteme-Laravel.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PizzaSysteme</h5>
+                      <p class="card-text">Web Application created by Laravel V8. </p>
+                      <a href="http://pizzasysteme.hichamtaib.me/" style="width: 49%; float:left;" class="btn btn-success" >LIVE PREVIEW</a>
+                      <a href="Resume/User-Guide.pdf" target="_blank" style="width: 49%; float:right ;" class="btn btn-primary" >USER GUIDE</a>
+
+                    </div>
+                  </div>
+            </div>
+        </article>
+        <article id="offers-article" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0">
+            <div>
+                 <h1>Coming Soon ...</h1>
+            </div>
+        </article>
+        <article id="contact-article" direction="contact" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0 mw-100">
+        <div  id="messagesent">Message sent</div>
+            <form action=""  method="post" id="form">
+            <div class="row mw-100">
+                <input type="text" class="contact col-12 col-md m-4  " id="username" name="name"  placeholder="Full name">
+                <input type="text" class="contact col-12 col-md m-4 " id="email" name="email" placeholder="Email">
+
+                </div>
+                <div class="row mw-100">
+                <input type="number" class="contact col-12 col-md m-4 " name="phone" id="phone" placeholder="Phone(optional)">
+                <input type="text" class="contact col-12 col-md m-4 " name="subject" id="subject" placeholder="Subject">
+                </div>
+                <div class="row mw-100 text-center ps-4 ps-md-0 m-auto align-content-center">
+                <textarea class="col  m-2  contacttext w-100" id="message" name="message"  placeholder="writte your message....."></textarea>
+             </div>
+             
+             <button type="submit" onclick="return form_verify()" class="m-3" id="submitbtn">SEND</button>
+
+            </form>
+
+        </article>
+        
+        <aside class="col-12 col-md-4  bg-light mt-5 mt-md-0 mw-100 ">
+            <div class="mt-4  text-center profil">
+                <img src="images/hichampicture.png" alt="" >
+             <h4 class="mt-2">Hicham Taib</h4>
+             <p>Software Engineer Student</p>
+            </div>
+            <div class="profil-description text-center">
+                <p class="fs-5">
+                    I am Hicham Taib software engineer student, I am from Morocco. who specializes in creating dynamic and beautiful web sites. I have been in the field for nearly 2 years and have been loving every minute of it.
+                </p>
+                <img class="" src="https://see.fontimg.com/api/renderfont4/w13o6/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/SGljaGFtIFRhaWI/brotherside-signature.png" alt="Signature fonts">
+            </div>
+            <div id="profil-contact" class="text-center pt-4" >
+                <h5  >KEEP IN TOUCH</h5>
+                <div id="social-media " class="pb-5"  >
+                    <a href="https://ma.linkedin.com/in/hicham-taib-87b416214?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><i class="fa-brands fa-linkedin fs-1 p-2  second-color"></i></a>
+                <a href="https://github.com/hicham2000" target="_blank" class=""><i class="fa-brands fa-github-square fs-1 p-2  second-color"></i></a>
+                <a href="https://www.facebook.com/hicham.taib.75/" target="_blank" class=""><i class="fa-brands fa-facebook-square fs-1 p-2  second-color"></i></a>
+                <a href="https://wa.me/+212600148141" target="_blank" class=""><i class="fa-brands fa-whatsapp-square fs-1 p-2  second-color"></i></a>
+                <a href="mailto:taibhicham8@gmail.com" class="" target="_blank"><i class="fa-solid fa-square-envelope fs-1 p-2  second-color"></i></a>  
+                </div>
+                
+
+
+               
+                
+
+
+            </div>
+        </aside>
+
+    </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="scriptes/jquery.js"></script>
+    <script src="scriptes/js.js"></script>
+
+
+</body>
+</html>
