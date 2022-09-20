@@ -18,6 +18,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link rel="stylesheet" href="style/style.css">
 <link rel="icon" href="images/letter-h (2) - Copie.icon">
+
 <style>
     #messagesent{
         color: white;
@@ -27,6 +28,20 @@
         width: 100%;
         margin: auto;
     }
+
+    .sm{
+        width: 14rem;
+    }
+
+    @media screen and (max-width: 500px) {
+  .sm{
+    width: 75%;
+    
+    
+    
+    
+  }
+}
 </style>
 
     <title>Hicham Taib</title>
@@ -57,9 +72,10 @@
         </div>
       </nav>
 
-    <div class=" row mt-3 mw-100 section">
-        <div class=" d-none d-lg-block col-1 javabtn mt-5">
-            <ul class="navbar-nav align-items-center position-fixed mt-5 ms-5 ">
+    <div class=" row mt-3 mw-100 section  vh-100">
+        <div class=" d-none d-lg-block col-1 javabtn ">
+            <div class="d-flex vh-100 justify-content-center align-items-center "> 
+                <ul class="navbar-nav position-fixed  ">
                 <a href="#" class="hic" direction="home"><li class="nav-item " > </li> </a> 
                 <a href="#" direction="skills"><li class="nav-item "  > </li> </a> 
                 <a href="#" direction="portfolio"><li class="nav-item " > </li> </a> 
@@ -70,6 +86,8 @@
                 
                 
             </ul>
+            </div>
+            
         </div>
         <article id="home-article" direction="home" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0 mw-100">
             <h1 >I BUILD BEAUTIFUL MODERN WEBSITES</h1>
@@ -127,21 +145,40 @@
 
         </article>
         <article id="portfolio-article" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0">
-            <div class="d-flex justify-content-center justify-content-lg-start">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/PizzaSysteme-Laravel.jpg" class="card-img-top" alt="...">
+            <div class="d-flex justify-content-evenly  flex-wrap w-100">
+                
+                <div class="card mb-5 sm"  >
+                    <img src="images/PizzaSysteme-Laravel.jpg"  class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">PizzaSysteme</h5>
-                      <p class="card-text">Web Application created by Laravel V8. </p>
-                      <a href="http://pizzasysteme.hichamtaib.me/" style="width: 49%; float:left;" class="btn btn-success" >LIVE PREVIEW</a>
-                      <a href="Resume/User-Guide.pdf" target="_blank" style="width: 49%; float:right ;" class="btn btn-primary" >USER GUIDE</a>
+                      <h5 class="card-title" style="font-size: 1rem;">Hello-Pizza</h5>
+                      <p class="card-text " style="font-size: 0.8rem;">Web application created with laravel V8 for restaurant management</p>
+                      <div class="row d-flex justify-content-center">
+                        <a href="http://pizzasysteme.hichamtaib.me/"  class="btn btn-success col-12 w-75 mb-3" ><span style="font-size: 0.8rem;">LIVE PREVIEW</span></a>
+                      <a href="Resume/User-Guide.pdf" target="_blank"  class="btn btn-primary col-12 w-75" >USER GUIDE</a>
+                      </div>
 
                     </div>
-                  </div>
+                </div>
+                <div class="card mb-5 sm"  >
+                    <img src="images/Capture d’écran 2022-08-23 141018.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 1rem;">Courrier</h5>
+                        <p class="card-text " style="font-size: 0.8rem;">Web application created with laravel V8 for mail management</p><br>
+                        <div class="row d-flex justify-content-center">
+                            <a href="#"  class="btn btn-success col-12 w-75 mb-3" ><span style="font-size: 0.8rem;">LIVE PREVIEW</span></a>
+                          <a href="#" target="_blank"  class="btn btn-primary col-12 w-75" >USER GUIDE</a>
+                          </div>
+
+                    </div>
+                </div>
+                
             </div>
         </article>
         <article id="offers-article" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0">
-            <div>
+            <div class="w-100 h-50 ">
+                <img src="images/404 error with people holding the numbers-amico (1).svg" width="100%" height="100%" alt="">
+            </div>
+            <div class="d-flex justify-content-center">
                  <h1>Coming Soon ...</h1>
             </div>
         </article>

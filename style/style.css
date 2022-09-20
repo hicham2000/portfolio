@@ -42,16 +42,14 @@ nav a{
     border: 2px #7c30d8 solid;
 }
 
-.javabtn{
-    margin-top: 2rem;
-}
+
 
 .javabtn a{
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #7c30d8;
-    margin-top: 20px;
+    margin-bottom: 30px;
 
 }
 .javabtn a:first-child{
@@ -277,7 +275,7 @@ z-index: -1;
 left: 10%;
 top: 15%;
 }
-
+/*
 #offers-article div{
 display: flex;
 justify-content: center;
@@ -287,12 +285,16 @@ color: #7c30d8;
 font-family: 'Poppins', sans-serif;
 
 
-}
+}  */
+
 #portfolio-article h1 , #offers-article h1{
 font-weight: bold;
 font-weight: 1200;
-
+color: #fe9c15;
+font-family: 'Poppins', sans-serif;
 }
+
+/*
 #offers-article{
 background-image: url("../images/404 error with people holding the numbers-amico.svg");
 background-repeat: no-repeat;
@@ -300,28 +302,14 @@ background-position: top;
 background-size: 25rem;
 
 }
-#offers-article div{
-display: flex;
-justify-content: center;
-align-items: flex-end;
-height: 70vh;
-color: #fe9c15;
-font-family: 'Poppins', sans-serif;
+*/
 
-
-}
 #offers-article h1{
 font-weight: bold;
 font-weight: 1200;
 
 }
-#offers-article{
-background-image: url("../images/404 error with people holding the numbers-amico (1).svg");
-background-repeat: no-repeat;
-background-position: top;
-background-size: 25rem;
 
-}
 
 .contact{
     height: 40px;
