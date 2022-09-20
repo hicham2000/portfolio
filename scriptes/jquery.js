@@ -1,10 +1,19 @@
-
-
-$("#skills-article").hide();
+window.addEventListener("load",() =>{
+    const loader = document.querySelector(".loader");
+    $("#skills-article").hide();
 $("#portfolio-article").hide();
 $("#offers-article").hide();
 $("#contact-article").hide();
 $("#messagesent").hide()
+    loader.classList.add("loader-hidden");
+
+    loader.addEventListener("transitionend", () => {
+        document.body.removeChild("loader");
+    })
+})
+
+
+
 
 
         $(".javabtn a").on("click",function(){

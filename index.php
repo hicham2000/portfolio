@@ -174,9 +174,9 @@
                 
             </div>
         </article>
-        <article id="offers-article" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0">
-            <div class="w-100 h-50 ">
-                <img src="images/404 error with people holding the numbers-amico (1).svg" width="100%" height="100%" alt="">
+        <article id="offers-article" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0 h-auto">
+            <div class=" " style="height:50%;width:100%">
+                <img src="images/404 error with people holding the numbers-amico (1).svg" style="width:100%; height:100%" alt="">
             </div>
             <div class="d-flex justify-content-center">
                  <h1>Coming Soon ...</h1>
@@ -236,6 +236,8 @@
         </aside>
 
     </div>
+
+    <div class="loader"></div>
     
 
 
