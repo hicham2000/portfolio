@@ -61,7 +61,7 @@
               <a id="home" class="nav-link mt-4 fs-4 pe-5 hi  second-color active " aria-current="page"  href="#">HOME</a>
               <a id="skills" class="nav-link mt-4 fs-4 pe-5 hi " href="#">SKILLS</a>
               <a id="portfolio" class="nav-link mt-4 fs-4 pe-5 hi" href="#">PORTFOLIO</a>
-              <a id="offers" class="nav-link mt-4 fs-4 pe-5 hi" href="#">OFFERS</a>
+              <a id="offers" class="nav-link mt-4 fs-4 pe-5 hi" href="#">CERTIFICATE</a>
               <a id="contact" class="nav-link mt-4 fs-4 pe-5 hi " href="#">CONTACT</a>
               <a class="nav-link mt-4 fs-4 pe-4 ps-4 rounded-pill me-5 langue hi " href="#" style="pointer-events: none"><i class="fa-solid fa-globe "></i> Francais</a>
               
@@ -72,8 +72,8 @@
         </div>
       </nav>
 
-    <div class=" row mt-3 mw-100 section  vh-100">
-        <div class=" d-none d-lg-block col-1 javabtn ">
+    <div class=" row mt-3 mw-100 section  vh-100  ">
+        <div class=" d-none d-lg-block col-1 javabtn  ">
             <div class="d-flex vh-100 justify-content-center align-items-center "> 
                 <ul class="navbar-nav position-fixed  ">
                 <a href="#" class="hic" direction="home"><li class="nav-item " > </li> </a> 
@@ -153,7 +153,7 @@
                       <h5 class="card-title" style="font-size: 1rem;">Hello-Pizza</h5>
                       <p class="card-text " style="font-size: 0.8rem;">Web application created with laravel V8 for restaurant management</p>
                       <div class="row d-flex justify-content-center">
-                        <a href="http://pizzasysteme.hichamtaib.me/"  class="btn btn-success col-12 w-75 mb-3" ><span style="font-size: 0.8rem;">LIVE PREVIEW</span></a>
+                        <a href="http://pizzasysteme.hichamtaib.me/" target="_blank"  class="btn btn-success col-12 w-75 mb-3" ><span style="font-size: 0.8rem;">LIVE PREVIEW</span></a>
                       <a href="Resume/User-Guide.pdf" target="_blank"  class="btn btn-primary col-12 w-75" >USER GUIDE</a>
                       </div>
 
@@ -163,10 +163,10 @@
                     <img src="images/Capture d’écran 2022-08-23 141018.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title" style="font-size: 1rem;">Courrier</h5>
-                        <p class="card-text " style="font-size: 0.8rem;">Web application created with laravel V8 for mail management</p><br>
+                        <p class="card-text " style="font-size: 0.8rem;">Web application created with laravel V8 for mail management "Stage D'initiation"</p>
                         <div class="row d-flex justify-content-center">
-                            <a href="#"  class="btn btn-success col-12 w-75 mb-3" ><span style="font-size: 0.8rem;">LIVE PREVIEW</span></a>
-                          <a href="#" target="_blank"  class="btn btn-primary col-12 w-75" >USER GUIDE</a>
+                            <a href="#" target="_blank"  class="btn btn-success col-12 w-75 mb-3" ><span style="font-size: 0.8rem;">LIVE PREVIEW</span></a>
+                          <a href="Resume/Rapport de stage.pdf" target="_blank"  class="btn btn-primary col-12 w-75" >Rapport</a>
                           </div>
 
                     </div>
@@ -175,12 +175,30 @@
             </div>
         </article>
         <article id="offers-article" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0 h-auto">
-            <div class=" " style="height:50%;width:100%">
-                <img src="images/404 error with people holding the numbers-amico (1).svg" style="width:100%; height:100%" alt="">
+            <div class="d-flex justify-content-around flex-wrap w-100">
+                <div class="card mb-5 " style="width: 23rem;">
+                    
+                      <img src="images/integrate.png" class="card-img-top " height="300rem" alt="Wild Landscape"/>  
+                    
+                    
+                    <div class="card-body d-flex justify-content-end">
+                      <a target="_blank" href="https://www.cloudskillsboost.google/public_profiles/d98c5d6a-1b0c-480e-9685-2714be74e595/badges/2654705" class="hi btn fw-bold">Details <img src="images/arrow-right-circle.svg" style="color: #fe9c15;"/></a>
+                    </div>
+                  </div>
+                  <div class="card mb-5 " style="width: 23rem;">
+                    <img src="images/createML.png" class="card-img-top" height="300rem" alt="Wild Landscape"/>
+                    <div class="card-body d-flex justify-content-end">
+                        <a target="_blank" href="https://www.cloudskillsboost.google/public_profiles/d98c5d6a-1b0c-480e-9685-2714be74e595/badges/2652183" class="hi btn fw-bold">Details <img src="images/arrow-right-circle.svg"/></a>
+                      </div>
+                  </div>
+                  <div class="card mb-5 " style="width: 23rem;">
+                    <img src="images/MLAPIs.png" class="card-img-top" height="300rem" alt="Wild Landscape"/>
+                    <div class="card-body d-flex justify-content-end">
+                        <a target="_blank" href="https://www.cloudskillsboost.google/public_profiles/d98c5d6a-1b0c-480e-9685-2714be74e595/badges/2649413" class="hi btn fw-bold">Details <img src="images/arrow-right-circle.svg"/></a>
+                      </div>
+                  </div>
             </div>
-            <div class="d-flex justify-content-center">
-                 <h1>Coming Soon ...</h1>
-            </div>
+              
         </article>
         <article id="contact-article" direction="contact" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0 mw-100">
         <div  id="messagesent">Message sent</div>
@@ -222,7 +240,7 @@
                     <a href="https://ma.linkedin.com/in/hicham-taib-87b416214?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><i class="fa-brands fa-linkedin fs-1 p-2  second-color"></i></a>
                 <a href="https://github.com/hicham2000" target="_blank" class=""><i class="fa-brands fa-github-square fs-1 p-2  second-color"></i></a>
                 <a href="https://www.facebook.com/hicham.taib.75/" target="_blank" class=""><i class="fa-brands fa-facebook-square fs-1 p-2  second-color"></i></a>
-                <a href="https://wa.me/+212600148141" target="_blank" class=""><i class="fa-brands fa-whatsapp-square fs-1 p-2  second-color"></i></a>
+                <a href="#" target="_blank" class=""><i class="fa-brands fa-whatsapp-square fs-1 p-2  second-color"></i></a>
                 <a href="mailto:taibhicham8@gmail.com" class="" target="_blank"><i class="fa-solid fa-square-envelope fs-1 p-2  second-color"></i></a>  
                 </div>
                 
