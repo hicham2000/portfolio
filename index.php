@@ -92,7 +92,7 @@
         <article id="home-article" direction="home" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0 mw-100">
             <h1 >I BUILD BEAUTIFUL MODERN WEBSITES</h1>
             <h3 class="fs-4 ">I'm Hicham Taib | Software Engineer Student</h3>
-            <p class="fs-5 w-100">As a Software Engineer developer, I’ve found that many people enjoy my unique design style, high quality of work, and reasonable rates.</p>
+            <p class="fs-5 w-100">As a Software Engineer developer, I've found that many people enjoy my design style and high quality of work.</p>
             <div class="d-flex  flex-column flex-sm-row" >
                 <button class="fiverr"><a href="Resume/Hicham taib.pdf" target="_blank" >Download My Resume</a></button>
             <button class="btn-contact"><a href="#" id="contactMe" > 
@@ -176,6 +176,27 @@
         </article>
         <article id="offers-article" class="col-lg-7 mt-5 col-md-8 col-12 ps-4 ps-lg-0 h-auto">
             <div class="d-flex justify-content-around flex-wrap w-100">
+            <div class="card mb-5 " style="width: 23rem;">
+                    
+                    <img src="images/9lJSUcFYeeOLGeVCvErQyupwgBHbHsKqvfgdb2xnCN8=.png" class="card-img-top " height="300rem" alt="Wild Landscape"/>  
+                  
+                  
+                  <div class="card-body d-flex justify-content-end">
+                    <a target="_blank" href="https://www.cloudskillsboost.google/public_profiles/d98c5d6a-1b0c-480e-9685-2714be74e595/badges/2975966" class="hi btn fw-bold">Details <img src="images/arrow-right-circle.svg" style="color: #fe9c15;"/></a>
+                  </div>
+                </div>
+
+
+
+                <div class="card mb-5 " style="width: 23rem;">
+                    
+                    <img src="images/bn3X3Y3rVZT6kQP41qoGm_oHxKWxezmhyXowIZ1ColQ=.png" class="card-img-top " height="300rem" alt="Wild Landscape"/>  
+                  
+                  
+                  <div class="card-body d-flex justify-content-end">
+                    <a target="_blank" href="https://www.cloudskillsboost.google/public_profiles/d98c5d6a-1b0c-480e-9685-2714be74e595/badges/2710664" class="hi btn fw-bold">Details <img src="images/arrow-right-circle.svg" style="color: #fe9c15;"/></a>
+                  </div>
+                </div>
                 <div class="card mb-5 " style="width: 23rem;">
                     
                       <img src="images/integrate.png" class="card-img-top " height="300rem" alt="Wild Landscape"/>  
@@ -230,7 +251,7 @@
             </div>
             <div class="profil-description text-center">
                 <p class="fs-5">
-                    I am Hicham Taib software engineer student, I am from Morocco. who specializes in creating dynamic and beautiful web sites. I have been in the field for nearly 2 years and have been loving every minute of it.
+                    I am Hicham Taib software engineer student, I am from Morocco. who specializes in creating dynamic and beautiful web sites. I have been in the field for nearly 3 years and have been loving every minute of it.
                 </p>
                 <img class="" src="https://see.fontimg.com/api/renderfont4/w13o6/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/SGljaGFtIFRhaWI/brotherside-signature.png" alt="Signature fonts">
             </div>
